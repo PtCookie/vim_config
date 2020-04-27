@@ -21,6 +21,9 @@ nnoremap <silent> <Leader>- :exe "resize -3"<CR>
 nnoremap <silent> <Leader>] :exe "vertical resize +8"<CR>
 nnoremap <silent> <Leader>[ :exe "vertical resize -8"<CR>
 
+" Clean last search pattern
+nnoremap <silent> <F2> :let @/ = ''<CR>
+
 " Buffer controll mapping
 nnoremap <silent> <F3> :bp<CR>
 nnoremap <silent> <F4> :bn<CR>
