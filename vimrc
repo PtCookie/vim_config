@@ -12,8 +12,11 @@ syntax on
 " Show line number
 set number
 
-" Show laststatus
+" Set statusline
 set laststatus=2
+set statusline=Buf:%n\ %F\ %m\ %r\ %{strlen(&fenc)?&fenc:''}[%{&ff}]
+set statusline+=%=
+set statusline+=%y\ Ln:%l/%L,\ Col:%c\ [%p%%]\ %{strftime(\"%a\ %b\ %d\ %H:%M\")}
 
 " Resize windows mapping
 nnoremap <silent> <Leader>= :exe "resize +3"<CR>
@@ -22,7 +25,7 @@ nnoremap <silent> <Leader>] :exe "vertical resize +8"<CR>
 nnoremap <silent> <Leader>[ :exe "vertical resize -8"<CR>
 
 " Clean last search pattern
-nnoremap <silent> <F2> :let @/ = ''<CR>
+nnoremap <silent> <F2> :let @/=''<CR>
 
 " Buffer controll mapping
 nnoremap <silent> <F3> :bp<CR>
