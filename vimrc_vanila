@@ -12,6 +12,12 @@ syntax on
 " Show line number
 set number
 
+" Set statusline
+set laststatus=2
+set statusline=Buf:%n\ %F\ %m\ %r\ %{strlen(&fenc)?&fenc:''}[%{&ff}]
+set statusline+=%=
+set statusline+=%y\ Ln:%l/%L,\ Col:%c\ [%p%%]\ %{strftime(\"%a\ %b\ %d\ %H:%M\")}
+
 " Resize windows mapping
 nnoremap <silent> <Leader>= :exe "resize +3"<CR>
 nnoremap <silent> <Leader>- :exe "resize -3"<CR>
@@ -25,14 +31,3 @@ nnoremap <silent> <F2> :let @/=''<CR>
 nnoremap <silent> <F3> :bp<CR>
 nnoremap <silent> <F4> :bn<CR>
 
-" Plugin settings
-" vim-airline
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
-
-" NERDCommenter
-let g:NERDSpaceDelims = 1
-
-" NERDTree
-nnoremap <silent> <F5> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
