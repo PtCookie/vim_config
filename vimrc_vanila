@@ -12,6 +12,9 @@ syntax on
 " Show line number
 set number
 
+" Set colorscheme
+colorscheme onehalfdark
+
 " Set statusline
 set laststatus=2
 set statusline=Buf:%n\ %F\ %m\ %r\ %{strlen(&fenc)?&fenc:''}[%{&ff}]

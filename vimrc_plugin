@@ -12,6 +12,9 @@ syntax on
 " Show line number
 set number
 
+" Set colorscheme
+colorscheme onehalfdark
+
 " Resize windows mapping
 nnoremap <silent> <Leader>= :exe "resize +3"<CR>
 nnoremap <silent> <Leader>- :exe "resize -3"<CR>
@@ -29,6 +32,7 @@ nnoremap <silent> <F4> :bn<CR>
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_theme='onehalfdark'
 
 " NERDCommenter
 let g:NERDSpaceDelims = 1
