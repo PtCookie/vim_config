@@ -23,3 +23,6 @@ vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdcommenter/doc" -c "q"
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c "q"
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/surround/doc" -c "q"
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/vim-airline/doc" -c "q"
+
+# Set vimrc file
+cp ~/.vim/vimrc_plugin ~/.vim/vimrc
