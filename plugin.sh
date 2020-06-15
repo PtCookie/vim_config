@@ -15,11 +15,11 @@ git clone https://tpope.io/vim/surround.git
 git clone https://github.com/vim-airline/vim-airline
 
 # Generate help tags
-vim +helptags ~/.vim/pack/vendor/start/ctrlp.vim/doc
-vim +helptags ~/.vim/pack/vendor/start/emmet-vim/doc
-vim +helptags ~/.vim/pack/vendor/start/fugitive/doc
-vim +helptags ~/.vim/pack/vendor/start/indentLine/doc
-vim +helptags ~/.vim/pack/vendor/start/nerdcommenter/doc
-vim +helptags ~/.vim/pack/vendor/start/nerdtree/doc
-vim +helptags ~/.vim/pack/vendor/start/surround/doc
-vim +helptags ~/.vim/pack/vendor/start/vim-airline/doc
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/ctrlp.vim/doc" -c "q"
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/emmet-vim/doc" -c "q"
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/fugitive/doc" -c "q"
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/indentLine/doc" -c "q"
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdcommenter/doc" -c "q"
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c "q"
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/surround/doc" -c "q"
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/vim-airline/doc" -c "q"
