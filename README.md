@@ -23,3 +23,6 @@ $ mv vimrc_vanila vimrc
 + [tpope/vim-surround](https://github.com/tpope/vim-surround)
 + [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
 
+## Color Scheme
++ [sonph/onehalf](https://github.com/sonph/onehalf)
+
