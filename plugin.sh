@@ -5,13 +5,13 @@ mkdir -p ~/.vim/pack/vendor/start
 cd ~/.vim/pack/vendor/start
 
 # Get plugin
-git clone https://github.com/ctrlpvim/ctrlp.vim.git
-git clone https://github.com/mattn/emmet-vim.git
-git clone https://tpope.io/vim/fugitive.git
-git clone https://github.com/Yggdroot/indentLine.git
-git clone https://github.com/preservim/nerdcommenter.git
-git clone https://github.com/preservim/nerdtree.git
-git clone https://tpope.io/vim/surround.git
+git clone https://github.com/ctrlpvim/ctrlp.vim
+git clone https://github.com/mattn/emmet-vim
+git clone https://github.com/tpope/vim-fugitive
+git clone https://github.com/Yggdroot/indentLine
+git clone https://github.com/preservim/nerdcommenter
+git clone https://github.com/preservim/nerdtree
+git clone https://github.com/tpope/vim-surround
 git clone https://github.com/vim-airline/vim-airline
 
 # Generate help tags
