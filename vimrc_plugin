@@ -35,7 +35,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='onehalfdark'
 
 " NERDCommenter
-let g:NERDSpaceDelims = 1
+let g:NERDSpaceDelims = 0
 
 " NERDTree
 nnoremap <silent> <F5> :NERDTreeToggle<CR>
